@@ -1,0 +1,71 @@
+{
+	"onset": {
+		"Description": "Onset (in seconds) of the event from the beginning of the first datapoint. Negative onsets account for events before the first stored data point.",
+		"Units": "s"
+	},
+	"duration": {
+		"Description": "Duration of the event in seconds from onset. Must be zero, positive, or 'n/a' if unavailable. A zero value indicates an impulse event. ",
+		"Units": "s"
+	},
+	"sample": {
+		"Description": "The event onset time in number of sampling points.First sample is 0."
+	},
+	"value": {
+		"Description": "The event code (also known as trigger code or event ID) associated with the event."
+	},
+	"trial_type": {
+		"Description": "The type, category, or name of the event.",
+		"HED": {
+			"14": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/14)",
+			"15": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/15)",
+			"16": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/16)",
+			"17": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/17)",
+			"18": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/18)",
+			"19": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/19)",
+			"20": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/20)",
+			"21": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/21)",
+			"14.2": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/14_2)",
+			"15.2": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/15_2)",
+			"16.2": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/16_2)",
+			"17.2": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/17_2)",
+			"18.2": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/18_2)",
+			"19.2": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/19_2)",
+			"20.2": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/20_2)",
+			"21.2": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/21_2)",
+			"14.4": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/14_4)",
+			"15.4": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/15_4)",
+			"16.4": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/16_4)",
+			"17.4": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/17_4)",
+			"18.4": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/18_4)",
+			"19.4": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/19_4)",
+			"20.4": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/20_4)",
+			"21.4": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/21_4)",
+			"14.6": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/14_6)",
+			"15.6": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/15_6)",
+			"16.6": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/16_6)",
+			"17.6": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/17_6)",
+			"18.6": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/18_6)",
+			"19.6": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/19_6)",
+			"20.6": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/20_6)",
+			"21.6": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/21_6)",
+			"14.8": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/14_8)",
+			"15.8": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/15_8)",
+			"16.8": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/16_8)",
+			"17.8": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/17_8)",
+			"18.8": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/18_8)",
+			"19.8": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/19_8)",
+			"20.8": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/20_8)",
+			"21.8": "Sensory-event, Experimental-stimulus, Visual-presentation, (Label/21_8)"
+		}
+	},
+	"Description": "Event annotations for ssvep task (14, 14.2, 14.4, 14.6, 14.8, 15, 15.2, 15.4, 15.6, 15.8, 16, 16.2, 16.4, 16.6, 16.8, 17, 17.2, 17.4, 17.6, 17.8, 18, 18.2, 18.4, 18.6, 18.8, 19, 19.2, 19.4, 19.6, 19.8, 20, 20.2, 20.4, 20.6, 20.8, 21, 21.2, 21.4, 21.6, 21.8).",
+	"StimulusPresentation": {
+		"SoftwareName": "OpenViBE",
+		"StimulusType": "JFPM visual flicker",
+		"StimulusModalities": [
+			"visual"
+		],
+		"PrimaryModality": "visual",
+		"Environment": "lab"
+	}
+}
