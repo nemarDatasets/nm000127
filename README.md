@@ -1,63 +1,63 @@
-Kim2025BetaRange
-================
+# 40-class beta-range SSVEP speller dataset
 
 40-class beta-range SSVEP speller dataset.
 
-Dataset Overview
-----------------
-  Code: Kim2025BetaRange
-  Paradigm: ssvep
-  DOI: 10.1038/s41597-025-06032-2
-  Subjects: 40
-  Sessions per subject: 6
-  Events: 14=1, 15=2, 16=3, 17=4, 18=5, 19=6, 20=7, 21=8, 14.2=9, 15.2=10, 16.2=11, 17.2=12, 18.2=13, 19.2=14, 20.2=15, 21.2=16, 14.4=17, 15.4=18, 16.4=19, 17.4=20, 18.4=21, 19.4=22, 20.4=23, 21.4=24, 14.6=25, 15.6=26, 16.6=27, 17.6=28, 18.6=29, 19.6=30, 20.6=31, 21.6=32, 14.8=33, 15.8=34, 16.8=35, 17.8=36, 18.8=37, 19.8=38, 20.8=39, 21.8=40
-  Trial interval: [0.0, 5.0] s
-  File format: MAT
+## Dataset Overview
 
-Acquisition
------------
-  Sampling rate: 1024.0 Hz
-  Number of channels: 33
-  Channel types: eeg=31, misc=2
-  Montage: standard_1005
-  Hardware: BioSemi ActiveTwo
-  Software: OpenViBE
-  Reference: CMS/DRL
-  Ground: CMS/DRL near Pz
-  Sensor type: active
-  Line frequency: 60.0 Hz
-  Impedance threshold: 5 kOhm
-  Cap manufacturer: BioSemi
-  Electrode type: wet
-  Electrode material: Ag/AgCl
+- **Code**: Kim2025BetaRange
+- **Paradigm**: ssvep
+- **DOI**: 10.1038/s41597-025-06032-2
+- **Subjects**: 40
+- **Sessions per subject**: 6
+- **Events**: 14=1, 15=2, 16=3, 17=4, 18=5, 19=6, 20=7, 21=8, 14.2=9, 15.2=10, 16.2=11, 17.2=12, 18.2=13, 19.2=14, 20.2=15, 21.2=16, 14.4=17, 15.4=18, 16.4=19, 17.4=20, 18.4=21, 19.4=22, 20.4=23, 21.4=24, 14.6=25, 15.6=26, 16.6=27, 17.6=28, 18.6=29, 19.6=30, 20.6=31, 21.6=32, 14.8=33, 15.8=34, 16.8=35, 17.8=36, 18.8=37, 19.8=38, 20.8=39, 21.8=40
+- **Trial interval**: [0.0, 5.0] s
+- **File format**: MAT
 
-Participants
-------------
-  Number of subjects: 40
-  Health status: healthy
-  Age: mean=22.8, std=3.34, min=20, max=35
-  Gender distribution: male=25, female=15
-  BCI experience: 3 of 40 had prior SSVEP-BCI experience
+## Acquisition
 
-Experimental Protocol
----------------------
-  Paradigm: ssvep
-  Task type: speller
-  Number of classes: 40
-  Class labels: 14, 15, 16, 17, 18, 19, 20, 21, 14.2, 15.2, 16.2, 17.2, 18.2, 19.2, 20.2, 21.2, 14.4, 15.4, 16.4, 17.4, 18.4, 19.4, 20.4, 21.4, 14.6, 15.6, 16.6, 17.6, 18.6, 19.6, 20.6, 21.6, 14.8, 15.8, 16.8, 17.8, 18.8, 19.8, 20.8, 21.8
-  Trial duration: 5.0 s
-  Feedback type: none
-  Stimulus type: JFPM visual flicker
-  Stimulus modalities: visual
-  Primary modality: visual
-  Synchronicity: synchronous
-  Mode: offline
-  Training/test split: True
+- **Sampling rate**: 1024.0 Hz
+- **Number of channels**: 31
+- **Channel types**: eeg=31, misc=2
+- **Montage**: standard_1005
+- **Hardware**: BioSemi ActiveTwo
+- **Software**: OpenViBE
+- **Reference**: CMS/DRL
+- **Ground**: CMS/DRL near Pz
+- **Sensor type**: active
+- **Line frequency**: 60.0 Hz
+- **Impedance threshold**: 5 kOhm
+- **Cap manufacturer**: BioSemi
+- **Electrode type**: wet
+- **Electrode material**: Ag/AgCl
 
-HED Event Annotations
----------------------
-  Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser
+## Participants
 
+- **Number of subjects**: 40
+- **Health status**: healthy
+- **Age**: mean=22.8, std=3.34, min=20, max=35
+- **Gender distribution**: male=25, female=15
+- **BCI experience**: 3 of 40 had prior SSVEP-BCI experience
+
+## Experimental Protocol
+
+- **Paradigm**: ssvep
+- **Task type**: speller
+- **Number of classes**: 40
+- **Class labels**: 14, 15, 16, 17, 18, 19, 20, 21, 14.2, 15.2, 16.2, 17.2, 18.2, 19.2, 20.2, 21.2, 14.4, 15.4, 16.4, 17.4, 18.4, 19.4, 20.4, 21.4, 14.6, 15.6, 16.6, 17.6, 18.6, 19.6, 20.6, 21.6, 14.8, 15.8, 16.8, 17.8, 18.8, 19.8, 20.8, 21.8
+- **Trial duration**: 5.0 s
+- **Feedback type**: none
+- **Stimulus type**: JFPM visual flicker
+- **Stimulus modalities**: visual
+- **Primary modality**: visual
+- **Synchronicity**: synchronous
+- **Mode**: offline
+- **Training/test split**: True
+
+## HED Event Annotations
+
+Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser
+
+```
   14
     ├─ Sensory-event
     ├─ Experimental-stimulus
@@ -298,49 +298,63 @@ HED Event Annotations
     ├─ Visual-presentation
     └─ Label/21_8
 
-Paradigm-Specific Parameters
-----------------------------
-  Detected paradigm: ssvep
-  Stimulus frequencies: [14.0, 14.2, 14.4, 14.6, 14.8, 15.0, 15.2, 15.4, 15.6, 15.8, 16.0, 16.2, 16.4, 16.6, 16.8, 17.0, 17.2, 17.4, 17.6, 17.8, 18.0, 18.2, 18.4, 18.6, 18.8, 19.0, 19.2, 19.4, 19.6, 19.8, 20.0, 20.2, 20.4, 20.6, 20.8, 21.0, 21.2, 21.4, 21.6, 21.8] Hz
-  Frequency resolution: 0.2 Hz
+```
+## Paradigm-Specific Parameters
 
-Data Structure
---------------
-  Trials: 240
-  Blocks per session: 6
+- **Detected paradigm**: ssvep
+- **Stimulus frequencies**: [14.0, 14.2, 14.4, 14.6, 14.8, 15.0, 15.2, 15.4, 15.6, 15.8, 16.0, 16.2, 16.4, 16.6, 16.8, 17.0, 17.2, 17.4, 17.6, 17.8, 18.0, 18.2, 18.4, 18.6, 18.8, 19.0, 19.2, 19.4, 19.6, 19.8, 20.0, 20.2, 20.4, 20.6, 20.8, 21.0, 21.2, 21.4, 21.6, 21.8] Hz
+- **Frequency resolution**: 0.2 Hz
 
-Preprocessing
--------------
-  Data state: epoched
+## Data Structure
 
-BCI Application
----------------
-  Environment: lab
-  Online feedback: False
+- **Trials**: 240
+- **Blocks per session**: 6
 
-Tags
-----
-  Pathology: healthy
-  Modality: visual
-  Type: perception
+## Preprocessing
 
-Documentation
--------------
-  DOI: 10.1038/s41597-025-06032-2
-  License: CC BY 4.0
-  Investigators: Heegyu Kim, Kyungho Won, Minkyu Ahn, Sung Chan Jun
-  Senior author: Sung Chan Jun
-  Institution: Gwangju Institute of Science and Technology
-  Department: School of Electrical Engineering and Computer Science, GIST
-  Country: KR
-  Repository: Figshare
-  Data URL: https://doi.org/10.6084/m9.figshare.28806815.v2
-  Publication year: 2025
-  Ethics approval: GIST IRB, No. 20211201-HR-64-02-04
-  Keywords: SSVEP, BCI, beta range, visual fatigue, 40-class speller, JFPM, EEG
+- **Data state**: epoched
 
-References
-----------
+## Signal Processing
+
+- **Classifiers**: CCA, FBCCA, ITCCA, TRCA, EEGNet
+- **Feature extraction**: CCA, FBCCA, TRCA
+- **Frequency bands**: stimulus_range=[14.0, 22.0] Hz; analysis=[13.0, 89.0] Hz
+- **Spatial filters**: CCA, TRCA
+
+## Cross-Validation
+
+- **Method**: leave-one-subject-out
+- **Folds**: 6
+- **Evaluation type**: within_subject, cross_subject
+
+## BCI Application
+
+- **Applications**: speller
+- **Environment**: lab
+
+## Tags
+
+- **Pathology**: healthy
+- **Modality**: visual
+- **Type**: perception
+
+## Documentation
+
+- **DOI**: 10.1038/s41597-025-06032-2
+- **License**: CC BY 4.0
+- **Investigators**: Heegyu Kim, Kyungho Won, Minkyu Ahn, Sung Chan Jun
+- **Senior author**: Sung Chan Jun
+- **Institution**: Gwangju Institute of Science and Technology
+- **Department**: School of Electrical Engineering and Computer Science, GIST
+- **Country**: KR
+- **Repository**: Figshare
+- **Data URL**: https://doi.org/10.6084/m9.figshare.28806815.v2
+- **Publication year**: 2025
+- **Ethics approval**: GIST IRB, No. 20211201-HR-64-02-04
+- **Keywords**: SSVEP, BCI, beta range, visual fatigue, 40-class speller, JFPM, EEG
+
+## References
+
 H. Kim, K. Won, M. Ahn, and S. C. Jun, "A 40-class SSVEP speller dataset: beta range stimulation for low-fatigue BCI applications," Scientific Data, vol. 12, p. 1751, 2025. DOI: 10.1038/s41597-025-06032-2
 Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
 

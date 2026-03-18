@@ -1,5 +1,5 @@
 {
-	"Name": "Kim2025BetaRange",
+	"Name": "40-class beta-range SSVEP speller dataset",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -16,7 +16,6 @@
 	"ReferencesAndLinks": [
 		"https://doi.org/10.6084/m9.figshare.28806815.v2"
 	],
-	"DatasetDOI": "doi:10.1038/s41597-025-06032-2",
 	"GeneratedBy": [
 		{
 			"CodeURL": "https://github.com/NeuroTechX/moabb",
