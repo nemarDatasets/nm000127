@@ -1,0 +1,79 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Heegyu Kim": {},
+    "Kyungho Won": {},
+    "Minkyu Ahn": {
+      "orcid": "0000-0001-6512-0167"
+    },
+    "Sung Chan Jun": {
+      "orcid": "0000-0001-5357-4436"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-06032-2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.28806815.v2",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000127",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000127",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "40-class beta-range SSVEP speller dataset",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "8.7 GB (242 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A 40-class steady-state visually evoked potential (SSVEP) speller dataset acquired from 40 healthy participants across 6 sessions using beta-range frequency stimulation (14–21.8 Hz). The dataset comprises 31-channel EEG recordings sampled at 1024 Hz with joint frequency and phase modulation (JFPM) visual stimuli designed to reduce visual fatigue in brain-computer interface applications. This derivative dataset includes preprocessed, epoched data suitable for benchmarking classification algorithms including CCA, FBCCA, ITCCA, TRCA, and EEGNet.",
+  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo system with 31 active wet Ag/AgCl electrodes in a standard 10-05 montage, sampled at 1024 Hz with CMS/DRL reference and ground near Pz. Visual stimuli were presented using OpenViBE software with JFPM modulation across 40 frequency classes (14–21.8 Hz in 0.2 Hz steps). Each trial lasted 5 seconds with 6 blocks per session and 240 total trials per subject. Impedance was maintained below 5 kOhm.",
+  "keywords": [
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual fatigue"
+    },
+    {
+      "term": "speller paradigm"
+    },
+    {
+      "term": "frequency modulation"
+    }
+  ],
+  "source_hash": "7c9294454cb9d1f7c13cbcb9b4337b1fdb0f9ecfb87531372d2f7e48ffdcb765"
+}
