@@ -1,45 +1,47 @@
 {
-	"Name": "Kim2025 – 40-class beta-range SSVEP speller dataset",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC BY 4.0",
-	"Authors": [
-		"Heegyu Kim",
-		"Kyungho Won",
-		"Minkyu Ahn",
-		"Sung Chan Jun"
-	],
-	"EthicsApprovals": [
-		"GIST IRB, No. 20211201-HR-64-02-04"
-	],
-	"ReferencesAndLinks": [
-		"https://doi.org/10.6084/m9.figshare.28806815.v2"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.4.3"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1038/s41597-025-06032-2",
-			"URL": "https://doi.org/10.6084/m9.figshare.28806815.v2"
-		}
-	],
-	"Keywords": [
-		"SSVEP",
-		"BCI",
-		"beta range",
-		"visual fatigue",
-		"40-class speller",
-		"JFPM",
-		"EEG"
-	],
-	"PublicationYear": 2025,
-	"ExperimentName": "Kim2025",
-	"Description": "40-class beta-range SSVEP speller dataset.\n\n\nDataset summary:\n\n#Subj      40\n#Chan      33\n#Classes      40\n#Trials / class       6\nTrials length     5 s\nFreq 1024 Hz\n#Sessions       6\n\n\nParticipants:\n\n- Population: healthy\n- Age: 22.8 (range: 20-35) years\n- BCI experience: 3 of 40 had prior SSVEP-BCI experience\n\n\nEquipment:\n\n- Amplifier: BioSemi ActiveTwo\n- Electrodes: active\n- Montage: standard_1005\n- Reference: CMS/DRL\n\n\nPreprocessing:\n\n- Data state: epoched\n\n\nData Access:\n\n- DOI: 10.1038/s41597-025-06032-2\n- Data URL: https://doi.org/10.6084/m9.figshare.28806815.v2\n- Repository: Figshare\n\n\nExperimental Protocol:\n\n- Paradigm: ssvep\n- Task type: speller\n- Feedback: none\n- Stimulus: JFPM visual flicker\n\nDataset from [1]_.\n\nThis dataset contains 33-channel EEG (31 scalp + 2 mastoid references)\nrecorded from 40 healthy subjects (25 males, 15 females, aged 20-35)\nperforming a 40-target SSVEP-BCI speller task using beta-range frequencies\n(14.0-21.8 Hz, 0.2 Hz step). The JFPM approach was used with phase\ndifferences of 0.5*pi between adjacent stimuli.\n\nEach subject completed 6 blocks of 40 trials. Trial structure was 1.5 s\nrest, 0.5 s cue, and 5.0 s SSVEP stimulation. EEG was recorded at 1024 Hz\nwith a BioSemi ActiveTwo system. Stored epochs span [-2000, 5000] ms\nrelative to stimulus onset (7168 samples at 1024 Hz). The event marker is\nplaced at stimulus onset (sample 2048), and interval=[0.0, 5.0] extracts\nthe 5 s stimulation window.\n\nThe stimuli were presented in a 5x8 matrix on a 120 Hz monitor.\n\nReferences\n----------\n.. [1] H. Kim, K. Won, M. Ahn, and S. C. Jun, \"A 40-class SSVEP speller\ndataset: beta range stimulation for low-fatigue BCI applications,\"\nScientific Data, vol. 12, p. 1751, 2025.\nDOI: 10.1038/s41597-025-06032-2"
+  "Name": "Kim2025 – 40-class beta-range SSVEP speller dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC BY 4.0",
+  "Authors": [
+    "Heegyu Kim",
+    "Kyungho Won",
+    "Minkyu Ahn",
+    "Sung Chan Jun"
+  ],
+  "EthicsApprovals": [
+    "GIST IRB, No. 20211201-HR-64-02-04"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.6084/m9.figshare.28806815.v2"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.4.3"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1038/s41597-025-06032-2",
+      "URL": "https://doi.org/10.6084/m9.figshare.28806815.v2"
+    }
+  ],
+  "Keywords": [
+    "SSVEP",
+    "BCI",
+    "beta range",
+    "visual fatigue",
+    "40-class speller",
+    "JFPM",
+    "EEG"
+  ],
+  "PublicationYear": 2025,
+  "ExperimentName": "Kim2025",
+  "Description": "40-class beta-range SSVEP speller dataset.\n\n\nDataset summary:\n\n#Subj      40\n#Chan      33\n#Classes      40\n#Trials / class       6\nTrials length     5 s\nFreq 1024 Hz\n#Sessions       6\n\n\nParticipants:\n\n- Population: healthy\n- Age: 22.8 (range: 20-35) years\n- BCI experience: 3 of 40 had prior SSVEP-BCI experience\n\n\nEquipment:\n\n- Amplifier: BioSemi ActiveTwo\n- Electrodes: active\n- Montage: standard_1005\n- Reference: CMS/DRL\n\n\nPreprocessing:\n\n- Data state: epoched\n\n\nData Access:\n\n- DOI: 10.1038/s41597-025-06032-2\n- Data URL: https://doi.org/10.6084/m9.figshare.28806815.v2\n- Repository: Figshare\n\n\nExperimental Protocol:\n\n- Paradigm: ssvep\n- Task type: speller\n- Feedback: none\n- Stimulus: JFPM visual flicker\n\nDataset from [1]_.\n\nThis dataset contains 33-channel EEG (31 scalp + 2 mastoid references)\nrecorded from 40 healthy subjects (25 males, 15 females, aged 20-35)\nperforming a 40-target SSVEP-BCI speller task using beta-range frequencies\n(14.0-21.8 Hz, 0.2 Hz step). The JFPM approach was used with phase\ndifferences of 0.5*pi between adjacent stimuli.\n\nEach subject completed 6 blocks of 40 trials. Trial structure was 1.5 s\nrest, 0.5 s cue, and 5.0 s SSVEP stimulation. EEG was recorded at 1024 Hz\nwith a BioSemi ActiveTwo system. Stored epochs span [-2000, 5000] ms\nrelative to stimulus onset (7168 samples at 1024 Hz). The event marker is\nplaced at stimulus onset (sample 2048), and interval=[0.0, 5.0] extracts\nthe 5 s stimulation window.\n\nThe stimuli were presented in a 5x8 matrix on a 120 Hz monitor.\n\nReferences\n----------\n.. [1] H. Kim, K. Won, M. Ahn, and S. C. Jun, \"A 40-class SSVEP speller\ndataset: beta range stimulation for low-fatigue BCI applications,\"\nScientific Data, vol. 12, p. 1751, 2025.\nDOI: 10.1038/s41597-025-06032-2",
+  "DatasetDOI": "10.82901/nemar.nm000127",
+  "Version": "1.0.0"
 }
