@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000127-blue)](https://doi.org/10.82901/nemar.nm000127)
+
 # 40-class beta-range SSVEP speller dataset
 
 40-class beta-range SSVEP speller dataset.
