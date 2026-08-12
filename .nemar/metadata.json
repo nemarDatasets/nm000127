@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kim2025 – 40-class beta-range SSVEP speller dataset",
-  "description": "A 40-class steady-state visually evoked potential (SSVEP) brain-computer interface dataset designed to reduce visual fatigue through beta-range frequency stimulation (14.0–21.8 Hz). The dataset comprises 33-channel EEG recordings from 40 healthy participants performing a speller task across 6 sessions, with stimuli presented using the joint frequency-phase modulation (JFPM) approach. This resource supports the development and benchmarking of low-fatigue BCI applications.",
-  "methods_description": "EEG data were acquired at 1024 Hz using a BioSemi ActiveTwo system with 31 scalp electrodes plus 2 mastoid references (standard 10-05 montage). Participants completed 6 blocks of 40 trials per session, with each trial consisting of 1.5 s rest, 0.5 s cue, and 5.0 s SSVEP stimulation. Stimuli were presented in a 5×8 matrix on a 120 Hz monitor using JFPM with 0.5π phase differences between adjacent stimuli. Stored epochs span [−2000, 5000] ms relative to stimulus onset.",
+  "description": "A 40-class steady-state visually evoked potential (SSVEP) brain-computer interface speller dataset acquired from 40 healthy subjects using beta-range stimulation frequencies (14.0–21.8 Hz) to reduce visual fatigue. The dataset comprises 33-channel EEG recordings (31 scalp + 2 mastoid references) sampled at 1024 Hz during a 5-second SSVEP stimulation task, with 6 sessions per subject and 6 trials per class, totaling 240 trials per participant. This derivative dataset was processed using the Mother of All BCI Benchmarks (MOABB) framework and is designed to support the development and benchmarking of SSVEP-BCI classification algorithms.",
+  "methods_description": "EEG data were recorded from 40 healthy subjects (25 males, 15 females, aged 20–35 years) using a BioSemi ActiveTwo amplifier with 31 active scalp electrodes plus 2 mastoid reference electrodes in a standard 10-05 montage. Stimuli were presented as a 5×8 matrix of visual flickers on a 120 Hz monitor using the joint frequency-phase modulation (JFPM) approach with phase differences of 0.5π between adjacent stimuli. Each trial consisted of 1.5 s rest, 0.5 s cue, and 5.0 s SSVEP stimulation. EEG was sampled at 1024 Hz and stored as epochs spanning [−2000, 5000] ms relative to stimulus onset, with the event marker placed at stimulus onset (sample 2048). Subjects completed 6 blocks of 40 trials each across 6 sessions.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -34,6 +34,9 @@
     },
     {
       "term": "speller paradigm"
+    },
+    {
+      "term": "frequency-phase modulation"
     }
   ],
   "related_identifiers": [
@@ -53,7 +56,7 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000127",
+      "identifier": "https://nemar.org/dataset/nm000127",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
@@ -75,5 +78,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "bcf6f5befbeee9ada1996dbfd05ef7daa2626f9c44fdfc907bee3ef12bca434e"
+  "source_hash": "3000f8c08690273cbb1c657bf0f3fc6aa89e4a85b39afc96e15713fed057acc7"
 }
