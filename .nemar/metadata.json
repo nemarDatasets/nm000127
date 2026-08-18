@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kim2025 – 40-class beta-range SSVEP speller dataset",
-  "description": "A 40-class steady-state visually evoked potential (SSVEP) brain-computer interface speller dataset acquired from 40 healthy subjects using beta-range stimulation frequencies (14.0–21.8 Hz) to reduce visual fatigue. The dataset comprises 33-channel EEG recordings (31 scalp + 2 mastoid references) sampled at 1024 Hz across 6 sessions per subject, with 240 trials total using the JFPM phase-modulation approach. This resource supports the development and benchmarking of low-fatigue BCI applications for communication and control.",
-  "methods_description": "EEG data were recorded using a BioSemi ActiveTwo amplifier with 33 active electrodes (standard 1005 montage) at 1024 Hz sampling rate. Stimuli were presented in a 5×8 matrix on a 120 Hz monitor using JFPM visual flicker with 40 target frequencies spanning 14.0–21.8 Hz (0.2 Hz step) and 0.5π phase differences between adjacent stimuli. Each trial consisted of 1.5 s rest, 0.5 s cue, and 5.0 s SSVEP stimulation. Epochs were stored spanning [−2000, 5000] ms relative to stimulus onset with the event marker at stimulus onset (sample 2048).",
+  "description": "A 40-class steady-state visually evoked potential (SSVEP) brain-computer interface speller dataset acquired from 40 healthy subjects using beta-range stimulation frequencies (14.0–21.8 Hz) to reduce visual fatigue. The dataset comprises 33-channel EEG recordings (31 scalp + 2 mastoid references) sampled at 1024 Hz across 6 sessions per subject, with 240 trials total using the joint frequency-phase modulation (JFPM) approach. This resource supports the development and benchmarking of low-fatigue BCI applications for communication interfaces.",
+  "methods_description": "EEG data were recorded from 40 healthy subjects (25 males, 15 females, aged 20–35 years) using a BioSemi ActiveTwo amplifier with 31 active scalp electrodes and 2 mastoid reference electrodes in standard 10-05 montage. Subjects performed a 40-target SSVEP speller task across 6 blocks of 40 trials each. Each trial consisted of 1.5 s rest, 0.5 s cue, and 5.0 s SSVEP stimulation at frequencies ranging from 14.0 to 21.8 Hz (0.2 Hz step) with 0.5π phase differences between adjacent stimuli using JFPM. Stimuli were presented in a 5×8 matrix on a 120 Hz monitor. EEG was recorded at 1024 Hz and epoched from −2000 to +5000 ms relative to stimulus onset.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,13 +27,16 @@
       "term": "EEG"
     },
     {
+      "term": "beta-range stimulation"
+    },
+    {
       "term": "visual fatigue"
     },
     {
       "term": "speller paradigm"
     },
     {
-      "term": "beta-range frequencies"
+      "term": "JFPM"
     }
   ],
   "related_identifiers": [
