@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kim2025 – 40-class beta-range SSVEP speller dataset",
-  "description": "A 40-class steady-state visually evoked potential (SSVEP) brain-computer interface speller dataset acquired from 40 healthy subjects using beta-range stimulation frequencies (14.0–21.8 Hz) to reduce visual fatigue. The dataset comprises 33-channel EEG recordings (31 scalp + 2 mastoid references) sampled at 1024 Hz across 6 sessions per subject, with 240 trials total using the joint frequency-phase modulation (JFPM) approach. This resource supports the development and benchmarking of low-fatigue BCI applications for communication interfaces.",
-  "methods_description": "EEG data were recorded from 40 healthy subjects (25 males, 15 females, aged 20–35 years) using a BioSemi ActiveTwo amplifier with 31 active scalp electrodes and 2 mastoid reference electrodes in standard 10-05 montage. Subjects performed a 40-target SSVEP speller task across 6 blocks of 40 trials each. Each trial consisted of 1.5 s rest, 0.5 s cue, and 5.0 s SSVEP stimulation at frequencies ranging from 14.0 to 21.8 Hz (0.2 Hz step) with 0.5π phase differences between adjacent stimuli using JFPM. Stimuli were presented in a 5×8 matrix on a 120 Hz monitor. EEG was recorded at 1024 Hz and epoched from −2000 to +5000 ms relative to stimulus onset.",
+  "description": "A 40-class SSVEP speller EEG dataset recorded from 40 healthy participants using beta-range flicker frequencies (14.0-21.8 Hz, 0.2 Hz spacing). Stimuli were presented with the joint frequency-phase modulation (JFPM) approach in a 5x8 matrix on a 120 Hz monitor. Each participant completed six blocks of 40 trials with 33-channel BioSemi recordings at 1024 Hz. The dataset is intended for developing low-visual-fatigue SSVEP-based brain-computer interfaces.",
+  "methods_description": "33-channel EEG (31 scalp and 2 mastoid) was recorded with a BioSemi ActiveTwo system at 1024 Hz. Each trial had 1.5 s rest, 0.5 s cue and 5.0 s SSVEP stimulation using JFPM flicker with 0.5*pi phase differences between adjacent stimuli. Participants completed 6 blocks of 40 trials on a 5x8 speller matrix shown on a 120 Hz monitor. Epochs span -2 to 5 s relative to stimulus onset.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,22 +18,22 @@
   },
   "keywords": [
     {
-      "term": "SSVEP"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "beta-range stimulation"
+      "term": "SSVEP"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "speller"
     },
     {
       "term": "visual fatigue"
     },
     {
-      "term": "speller paradigm"
+      "term": "beta range"
     },
     {
       "term": "JFPM"
@@ -48,7 +48,7 @@
     {
       "identifier": "10.6084/m9.figshare.28806815.v2",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDerivedFrom"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000127",
@@ -67,7 +67,7 @@
     "eeg"
   ],
   "sizes": [
-    "17.7 GB (282 files)"
+    "16.53 GB (282 files)"
   ],
   "formats": [
     ".html",
